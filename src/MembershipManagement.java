@@ -60,8 +60,8 @@ public class MembershipManagement {
                 mbr = addSingleClubMember(club, memberID, membersList);
                 break;
             case 4:
-                // Некоторая логика создания объекта Member для club == 4
-                mbr = new Member('S', memberID, "Имя", 0.0); // Пример, адаптируйте под вашу логику
+
+                mbr = new Member('S', memberID, "Имя", 0.0);
                 membersList.add(mbr);
                 break;
             default:
